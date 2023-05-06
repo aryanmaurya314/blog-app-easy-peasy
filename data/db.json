@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "datetime": "May 01, 2023 10:59:59 PM",
+      "title": "My Fourth Post Aryan's heading",
+      "body": "Aryan updated ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": 6,
+      "datetime": "May 06, 2023 10:31:49 AM",
+      "title": "post add ####",
+      "body": "1st post adding edit kar diya hai$$"
+    },
+    {
+      "id": 7,
+      "datetime": "May 06, 2023 11:04:27 AM",
+      "title": "Post 1",
+      "body": "Post Body 1"
+    },
+    {
+      "id": 8,
+      "datetime": "May 06, 2023 11:04:41 AM",
+      "title": "Post 2",
+      "body": "Post Body 2"
+    },
+    {
+      "id": 9,
+      "datetime": "May 06, 2023 11:04:55 AM",
+      "title": "Post 3",
+      "body": "This is post 3"
+    }
+  ]
+}

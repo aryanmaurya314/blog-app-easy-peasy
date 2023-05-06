@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary-dark: #0b2447;
+  --color-primary: #19376d;
+  --color-primary-light: #576cbc;
+
+  --color-warning-light: #e64848;
+  --color-warning-dark: #c21010;
+
+  --color-submit-light: #55a44e;
+  --color-submit-dark: #388e3c;
+
+  --color-grey-light: #f7f7f7;
+  --color-grey-dark: #777;
+  --color-grey: #eee;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px ==> 16px/10px
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 80rem;
+  margin: auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+button {
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  border: none;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+a:link,
+a:visited {
+  font: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+// use CSS GRID to make overall layout
+.layout {
+  display: grid;
+  grid-template-rows: 7rem min-content 1fr 3rem;
+  box-shadow: 0 1rem 2rem rgb(#000, 0.25);
+}
+
+main {
+  min-height: calc(100vh - 15.2rem);
+  padding: 2.5rem 3rem;
+
+  @media only screen and (max-width: 37.5em) {
+    min-height: calc(100vh - 18.7rem);
+  }
+}

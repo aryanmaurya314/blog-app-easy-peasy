@@ -1,0 +1,44 @@
+.post__body {
+  margin-bottom: 3rem;
+}
+
+.btn {
+  padding: 0.8rem 3.5rem;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  box-shadow: 0 0.8rem 1.4rem rgb(#000, 0.25);
+  color: var(--color-grey-light);
+
+  &--delete {
+    background-color: var(--color-warning-light);
+
+    &:hover {
+      background-color: var(--color-warning-dark);
+    }
+  }
+
+  &--submit {
+    background-color: var(--color-submit-light);
+
+    &:hover {
+      background-color: var(--color-submit-dark);
+    }
+  }
+
+  &--edit{
+    background-color: var(--color-primary-light);
+
+    &:hover {
+      background-color: var(--color-primary-dark);
+    }
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 0.4rem 1rem rgb(#000, 0.15);
+  }
+}
